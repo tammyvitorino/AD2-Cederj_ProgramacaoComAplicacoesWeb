@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin:100px 100px;
+	font-family:Verdana, Geneva, sans-serif;
+	}
+body .btn:hover{
+	background-color: #ffb400;
+	border-color: rgba(255, 255, 255, 0);
+}
+body h1, h2{
+	color: #ffb400;	
+	text-transform: uppercase;
+	text-align:center;	
+}
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color:#ffffff;
+	}
+.btn {		
+	border-radius: 5px;
+	text-align: center;
+	border: 1px white solid;
+	color: #ffffff;
+	background-color: #333333;
+	text-transform: uppercase;		
+	display: block;
+	vertical-align: middle;
+	font-size: 1.rem;
+ 	padding: 20px 20px;
+	width:500px;
+	margin-top:10px;
+}
+.inscreve-tabela {
+	background:#666;
+	color:#ffffff;
+	}
+.rotulo-tabela {
+	background:#9CF;
+	color:#ffffff;
+	text-transform: uppercase;
+	text-align:center;
+	}
+td {
+	height: 5px;
+	}
